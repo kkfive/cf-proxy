@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://file2.acs.pw/$1",
+      "statusCode": 301
+    }
+  ]
+}
