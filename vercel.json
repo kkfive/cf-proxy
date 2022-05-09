@@ -5,5 +5,16 @@
       "destination": "https://file2.acs.pw/$1",
       "statusCode": 301
     }
+  ],
+  "headers": [
+    {
+      "source": "(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, s-maxage=31536000, max-age=31536000"
+        }
+      ]
+    }
   ]
 }
